@@ -16,11 +16,6 @@ class DeliveryTest {
         $("[data-test-id=date] input").sendKeys(Keys.chord(Keys.CONTROL + "A", Keys.DELETE));
     }
 
-//    @AfterEach
-//    public void tearDown() {
-//        close();
-//    }
-
     @Test
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting() {
